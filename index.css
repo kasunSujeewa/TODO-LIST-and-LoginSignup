@@ -1,0 +1,29 @@
+.login-box{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    border: 1px solid black;
+    margin: 5% 32% 5% 30%;
+    padding: 2%;
+    background: linear-gradient(45deg, #3bbd50, transparent);
+    border-radius: 24px;
+    font-size: xx-large;
+}
+input{
+    padding: 6px;
+}
+.signupBt{
+    padding: 5%;
+    border: none;
+    border-radius: 10px;
+    background: lime;
+    color: white;
+}
+.buttonLog{
+    padding: 5%;
+    border: none;
+    border-radius: 10px;
+    background: rgb(14, 65, 206);
+    color: white;
+
+}
