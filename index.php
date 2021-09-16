@@ -70,13 +70,26 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     width: 20%;
     margin: 10px 0;
 }
+.pages{
+    float:right;
+}
+body{
+    background: url('./images/top-view-work-from-home-concept-with-keyboard-calculator-notebook-white-background-graphic-designer-creative-designer-concept_160097-217.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
     </style>
 </head>
 <body>
+    <div class="pages">
+        <a href="todo.php">Todo Page</a>
     <a href="logout.php">Logout</a>
-    <a href="todo.php">ADD TODO</a>
+    </div>
+   
 
-    <h3><?php echo "Welcome ".ucfirst($user_name) ?></h3>
+    <h2><?php echo "Welcome ".ucfirst($user_name) ?></h2>
     <br>
     <br>
     <?php if($editable == false) : ?>
